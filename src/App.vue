@@ -40,7 +40,7 @@ const selectedPhoto = ref(null)
 
 onMounted(async () => {
   try {
-    const response = await fetch('/gallery.json')
+    const response = await fetch('./gallery.json')
     const data = await response.json()
     photos.value = data
     if (data.length) selectedPhoto.value = data[0]

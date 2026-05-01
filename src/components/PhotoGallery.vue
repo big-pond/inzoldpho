@@ -31,11 +31,12 @@ const emit = defineEmits(['select-photo'])
 
 function getImageUrl(imageName) {
   // изображения лежат в public/images/
-  return `/images/${imageName}`
+  return `./images/${imageName}`
 }
 
 function handleImageError(e) {
-  e.target.src = 'https://placehold.co/400x300?text=No+Image'
+  e.target.src = './images/placeholder.png'
+//   e.target.src = 'https://placehold.co/400x300?text=No+Image'
 }
 
 function formatDate(photo) {
