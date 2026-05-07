@@ -11,11 +11,11 @@ import TileLayer from 'ol/layer/Tile'
 import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
 import OSM from 'ol/source/OSM'
-import { fromLonLat, toLonLat } from 'ol/proj'
+import { fromLonLat, /*toLonLat*/ } from 'ol/proj'
 import Feature from 'ol/Feature'
 import Point from 'ol/geom/Point'
 import LineString from 'ol/geom/LineString'
-import { Style, Circle, Fill, Stroke, Icon } from 'ol/style'
+import { Style, Circle, Fill, Stroke/*, Icon */} from 'ol/style'
 
 const props = defineProps({
   lat: Number,
@@ -117,13 +117,23 @@ onMounted(() => {
       zoom: 5
     })
   })
-})
-
-watch(() => [props.lat, props.lon, props.direct], () => {
+  
+  // Если данные уже пришли (например, выбранное фото изначально), обновим карту
   if (props.lat && props.lon) {
     updateMapLocation(props.lat, props.lon, props.direct)
   }
 })
+
+
+watch(
+  () => [props.lat, props.lon, props.direct], 
+  () => {
+    if (props.lat && props.lon && map && vectorSource) {
+      updateMapLocation(props.lat, props.lon, props.direct)
+    }
+  },
+  { immediate: true }  // Чтобы отработало сразу после монтирования
+)
 </script>
 
 <style scoped>

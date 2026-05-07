@@ -23,7 +23,6 @@
           :lat="selectedPhoto?.lat" 
           :lon="selectedPhoto?.lon" 
           :direct="selectedPhoto?.direct"
-          :key="selectedPhoto?.id"
         />
       </div>
     </div>
@@ -33,6 +32,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import PhotoGallery from './components/PhotoGallery.vue'
+import { monthStr } from './utils/dateUtils'
 import MapView from './components/MapView.vue'
 
 const photos = ref([])
@@ -56,7 +56,7 @@ function onSelectPhoto(photo) {
 function formatFullDate(photo) {
   let date = `${photo.year}`
   if (photo.month && photo.day) date += `-${photo.month}-${photo.day}`
-  else if (photo.month) date += `, месяц ${photo.month}`
+  else if (photo.month) date += `, месяц ${monthStr(photo.month)}`
   return date
 }
 </script>

@@ -22,6 +22,8 @@
 </template>
 
 <script setup>
+import { monthStr } from '../utils/dateUtils'
+
 const props = defineProps({
   photos: Array,
   selectedPhoto: Object
@@ -42,10 +44,11 @@ function handleImageError(e) {
 function formatDate(photo) {
   if (photo.year) {
     if (photo.month) {
-      return `${photo.year} · ${photo.month} месяц`
+      return `${photo.year} · ${monthStr(photo.month)}`
     }
     return `${photo.year}`
   }
   return 'Дата неизвестна'
 }
+
 </script>

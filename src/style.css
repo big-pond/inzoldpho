@@ -84,7 +84,7 @@ h1 {
 }
 
 .photo-card.active {
-  ring: 3px solid #3498db;
+  outline: 3px solid #3498db; 
   box-shadow: 0 0 0 3px #3498db;
 }
 
