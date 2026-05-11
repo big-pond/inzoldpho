@@ -5,12 +5,13 @@
       :key="photo.id"
       class="photo-card"
       :class="{ active: selectedPhoto?.id === photo.id }"
-      @click="$emit('select-photo', photo)"
+      @click="handleCardClick(photo)"
     >
       <img 
-        :src="getImageUrl(photo.image)" 
+        :src="getThumbUrl(photo.image)" 
         :alt="photo.description"
         class="photo-thumb"
+        loading="lazy"
         @error="handleImageError"
       >
       <div class="photo-info">
@@ -29,7 +30,17 @@ const props = defineProps({
   selectedPhoto: Object
 })
 
-const emit = defineEmits(['select-photo'])
+const emit = defineEmits(['select-photo', 'open-lightbox'])
+
+function handleCardClick(photo) {
+  // Если кликнули по уже выбранной карточке -> открываем лайтбокс
+  if (props.selectedPhoto && props.selectedPhoto.id === photo.id) {
+    emit('open-lightbox', photo)
+  } else {
+    // Иначе просто выбираем фото
+    emit('select-photo', photo)
+  }
+}
 
 function getImageUrl(imageName) {
   // изображения лежат в public/images/
@@ -39,6 +50,17 @@ function getImageUrl(imageName) {
 function handleImageError(e) {
   e.target.src = './images/placeholder.png'
 //   e.target.src = 'https://placehold.co/400x300?text=No+Image'
+}
+
+// Путь к миниатюре (добавляем _thumb перед расширением)
+function getThumbUrl(imageName) {
+  // Разделяем имя на base и расширение
+  const lastDot = imageName.lastIndexOf('.')
+  if (lastDot === -1) return getImageUrl(imageName)
+  const base = imageName.substring(0, lastDot)
+  const ext = imageName.substring(lastDot)
+  // console.log(`./images/${base}_thumb${ext}`)
+  return `./images/${base}_thumb${ext}`
 }
 
 function formatDate(photo) {

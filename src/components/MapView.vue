@@ -79,17 +79,17 @@ function updateMapLocation(lat, lon, direct) {
     vectorSource.addFeature(lineFeature)
 
     // Добавим кружок на конце направления
-    const arrowFeature = new Feature({
-      geometry: new Point(endCoord)
-    })
-    arrowFeature.setStyle(new Style({
-      image: new Circle({
-        radius: 5,
-        fill: new Fill({ color: '#2980b9' }),
-        stroke: new Stroke({ color: '#fff', width: 1.5 })
-      })
-    }))
-    vectorSource.addFeature(arrowFeature)
+    // const arrowFeature = new Feature({
+    //   geometry: new Point(endCoord)
+    // })
+    // arrowFeature.setStyle(new Style({
+    //   image: new Circle({
+    //     radius: 5,
+    //     fill: new Fill({ color: '#2980b9' }),
+    //     stroke: new Stroke({ color: '#fff', width: 1.5 })
+    //   })
+    // }))
+    // vectorSource.addFeature(arrowFeature)
   }
 
   // Центрируем и устанавливаем зум
