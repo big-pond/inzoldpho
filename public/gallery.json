@@ -111,7 +111,7 @@
     },
     {
         "id": 38,
-        "description": "\"Швейцария\". Река Ворона едва вошла в берега после разлива.",
+        "description": "Тамбовская \"Швейцария\". Река Ворона едва вошла в берега после разлива.",
         "year": 1979,
         "month": 5,
         "day": null,
@@ -122,7 +122,7 @@
     },
     {
         "id": 41,
-        "description": "",
+        "description": "Тамбовская \"Швейцария\". Река Ворона едва вошла в берега после разлива.",
         "year": 1979,
         "month": 5,
         "day": null,
@@ -133,7 +133,7 @@
     },
     {
         "id": 42,
-        "description": "",
+        "description": "Тамбовская \"Швейцария\". Река Ворона едва вошла в берега после разлива.",
         "year": 1979,
         "month": 5,
         "day": null,
@@ -144,7 +144,7 @@
     },
     {
         "id": 44,
-        "description": "",
+        "description": "Тамбовская \"Швейцария\". Река Ворона едва вошла в берега после разлива.",
         "year": 1979,
         "month": 5,
         "day": null,
@@ -155,9 +155,9 @@
     },
     {
         "id": 45,
-        "description": "",
+        "description": "Река Ворона у поселка Коммуна.",
         "year": 1979,
-        "month": " ",
+        "month": null,
         "day": null,
         "lat": 52.26778,
         "lon": 42.47969,
@@ -166,9 +166,9 @@
     },
     {
         "id": 46,
-        "description": "",
+        "description": "Река Ворона у поселка Коммуна.",
         "year": 1979,
-        "month": " ",
+        "month": null,
         "day": null,
         "lat": 52.26776,
         "lon": 42.47974,
@@ -177,9 +177,9 @@
     },
     {
         "id": 48,
-        "description": "",
+        "description": "Река Ворона у поселка Коммуна.",
         "year": 1979,
-        "month": " ",
+        "month": null,
         "day": null,
         "lat": 52.26776,
         "lon": 42.47967,
@@ -188,7 +188,7 @@
     },
     {
         "id": 58,
-        "description": "",
+        "description": "Река Ворона, пляж \"Рижское взморье\". Подводный охотник с трофеем.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -199,7 +199,7 @@
     },
     {
         "id": 59,
-        "description": "",
+        "description": "Река Ворона, пляж \"Рижское взморье\".",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -210,7 +210,7 @@
     },
     {
         "id": 70,
-        "description": "",
+        "description": "Река Ворона, у пляжа \"Рижское взморье\".",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -221,7 +221,7 @@
     },
     {
         "id": 71,
-        "description": "",
+        "description": "Река Ворона, пляж \"Рижское взморье\".",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -232,7 +232,7 @@
     },
     {
         "id": 73,
-        "description": "",
+        "description": "Пойма реки Ворона.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -243,7 +243,7 @@
     },
     {
         "id": 74,
-        "description": "",
+        "description": "Пойма реки Ворона.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -254,7 +254,7 @@
     },
     {
         "id": 111,
-        "description": "",
+        "description": "Поселок Уваровский.",
         "year": 1976,
         "month": null,
         "day": null,
@@ -265,7 +265,7 @@
     },
     {
         "id": 149,
-        "description": "",
+        "description": "Дом в поселке Уваровский.",
         "year": 1974,
         "month": null,
         "day": null,
@@ -276,7 +276,7 @@
     },
     {
         "id": 153,
-        "description": "",
+        "description": "\"Большой пруд\" в поселке Уваровский.",
         "year": 1974,
         "month": null,
         "day": null,
@@ -287,7 +287,7 @@
     },
     {
         "id": 164,
-        "description": "",
+        "description": "Разлив на реке Ворона. Дорога на старый бетонный мост.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -309,7 +309,7 @@
     },
     {
         "id": 166,
-        "description": "",
+        "description": "Разлив на реке Ворона.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -320,7 +320,7 @@
     },
     {
         "id": 167,
-        "description": "",
+        "description": "Разлив на реке Ворона.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -331,7 +331,7 @@
     },
     {
         "id": 168,
-        "description": "",
+        "description": "Разлив на реке Ворона.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -342,7 +342,7 @@
     },
     {
         "id": 169,
-        "description": "",
+        "description": "Разлив на реке Ворона.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -353,7 +353,7 @@
     },
     {
         "id": 170,
-        "description": "",
+        "description": "Разлив на реке Ворона.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -364,7 +364,7 @@
     },
     {
         "id": 171,
-        "description": "",
+        "description": "Разлив на реке Ворона.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -375,7 +375,7 @@
     },
     {
         "id": 172,
-        "description": "",
+        "description": "Разлив на реке Ворона.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -386,7 +386,7 @@
     },
     {
         "id": 173,
-        "description": "",
+        "description": "Разлив на реке Ворона. Село Скопинка. На дамбе вал из песка на случай критического уовня воды.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -397,7 +397,7 @@
     },
     {
         "id": 174,
-        "description": "",
+        "description": "Разлив на реке Ворона. Село Скопинка.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -408,7 +408,7 @@
     },
     {
         "id": 177,
-        "description": "",
+        "description": "\"Большой\" пруд в поселке Уваровский.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -419,7 +419,7 @@
     },
     {
         "id": 178,
-        "description": "",
+        "description": "\"Маленький\" пруд в поселке Уваровский.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -430,7 +430,7 @@
     },
     {
         "id": 181,
-        "description": "",
+        "description": "Лошади в поселке Уваровский.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -441,7 +441,7 @@
     },
     {
         "id": 190,
-        "description": "",
+        "description": "Поселок Уваровский. Угол колхозного сада, конюшня, сарай.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -452,7 +452,7 @@
     },
     {
         "id": 191,
-        "description": "",
+        "description": "Разлив на реке Ворона. Село Скопинка.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -463,7 +463,7 @@
     },
     {
         "id": 192,
-        "description": "",
+        "description": "Разлив на реке Ворона. Село Скопинка.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -474,7 +474,7 @@
     },
     {
         "id": 195,
-        "description": "",
+        "description": "Разлив на реке Ворона. Старый бетонный мост. Деревянная секция.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -485,7 +485,7 @@
     },
     {
         "id": 196,
-        "description": "",
+        "description": "Разлив на реке Ворона. Старый бетонный мост. Деревянная секция.",
         "year": 1977,
         "month": 4,
         "day": null,
@@ -496,7 +496,7 @@
     },
     {
         "id": 199,
-        "description": "",
+        "description": "Дом в поселке Уваровский.",
         "year": 1976,
         "month": null,
         "day": null,
@@ -507,7 +507,7 @@
     },
     {
         "id": 206,
-        "description": "",
+        "description": "Село Кулевча. Уборка картофеля.",
         "year": 1975,
         "month": 8,
         "day": null,
@@ -518,7 +518,7 @@
     },
     {
         "id": 207,
-        "description": "",
+        "description": "Село Кулевча. Уборка картофеля.",
         "year": 1975,
         "month": 8,
         "day": null,
@@ -529,7 +529,7 @@
     },
     {
         "id": 228,
-        "description": "",
+        "description": "Река Ворона у поселка Коммуна.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -540,7 +540,7 @@
     },
     {
         "id": 241,
-        "description": "",
+        "description": "Лагерь отдыхающих у реки Ворона рядом с поселком Коммуна",
         "year": 1975,
         "month": null,
         "day": null,
@@ -551,7 +551,7 @@
     },
     {
         "id": 248,
-        "description": "",
+        "description": "Лагерь отдыхающих у реки Ворона рядом с поселком Коммуна",
         "year": 1975,
         "month": null,
         "day": null,
@@ -562,7 +562,7 @@
     },
     {
         "id": 250,
-        "description": "",
+        "description": "Поселок Уваровский.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -573,7 +573,7 @@
     },
     {
         "id": 280,
-        "description": "",
+        "description": "Тамбовская \"Швейцария\". Река Ворона входит в берега после разлива.",
         "year": 1976,
         "month": 5,
         "day": null,
@@ -584,7 +584,7 @@
     },
     {
         "id": 281,
-        "description": "",
+        "description": "Тамбовская \"Швейцария\". Река Ворона входит в берега после разлива.",
         "year": 1976,
         "month": 5,
         "day": null,
@@ -595,7 +595,7 @@
     },
     {
         "id": 296,
-        "description": "",
+        "description": "Поселок Уваровский. Сугроб рядом с домом.",
         "year": 1978,
         "month": null,
         "day": null,
@@ -606,7 +606,7 @@
     },
     {
         "id": 301,
-        "description": "",
+        "description": "Поселок Уваровский. Сугробы.",
         "year": 1978,
         "month": null,
         "day": null,
@@ -617,7 +617,7 @@
     },
     {
         "id": 302,
-        "description": "",
+        "description": "Поселок Уваровский. Сугроб рядом с домом.",
         "year": 1978,
         "month": null,
         "day": null,
@@ -628,7 +628,7 @@
     },
     {
         "id": 400,
-        "description": "",
+        "description": "Инжавино. У забора маслосырзавода.",
         "year": 1976,
         "month": null,
         "day": null,
@@ -639,7 +639,7 @@
     },
     {
         "id": 401,
-        "description": "",
+        "description": "Инжавино. Строительство домов № 2 и № 4 ул. 30 лет Победы.",
         "year": 1976,
         "month": null,
         "day": null,
@@ -650,7 +650,7 @@
     },
     {
         "id": 402,
-        "description": "",
+        "description": "Инжавино. Улица Школьная.",
         "year": 1976,
         "month": null,
         "day": null,
@@ -661,7 +661,7 @@
     },
     {
         "id": 403,
-        "description": "",
+        "description": "Инжавино. Строительство домов № 2 и № 4 ул. 30 лет Победы. Справа дом № 10 по ул.Школьная.",
         "year": 1976,
         "month": null,
         "day": null,
@@ -672,7 +672,7 @@
     },
     {
         "id": 641,
-        "description": "",
+        "description": "Дом Чичериных в селе Караул.",
         "year": 1984,
         "month": 7,
         "day": null,
@@ -683,7 +683,7 @@
     },
     {
         "id": 642,
-        "description": "",
+        "description": "Дом Чичериных в селе Караул.",
         "year": 1984,
         "month": 7,
         "day": null,
@@ -694,7 +694,7 @@
     },
     {
         "id": 646,
-        "description": "",
+        "description": "Дом Чичериных в селе Караул.",
         "year": 1984,
         "month": 7,
         "day": null,
@@ -705,7 +705,7 @@
     },
     {
         "id": 689,
-        "description": "",
+        "description": "\"Маленький\" пруд в поселке Уваровский.",
         "year": 1977,
         "month": null,
         "day": null,
@@ -716,7 +716,7 @@
     },
     {
         "id": 695,
-        "description": "",
+        "description": "\"Большой пруд\" в поселке Уваровский.",
         "year": 1977,
         "month": null,
         "day": null,
@@ -727,7 +727,7 @@
     },
     {
         "id": 699,
-        "description": "",
+        "description": "\"Маленький\" пруд в поселке Уваровский.",
         "year": 1977,
         "month": null,
         "day": null,
@@ -738,7 +738,7 @@
     },
     {
         "id": 703,
-        "description": "",
+        "description": "\"Большой пруд\" в поселке Уваровский.",
         "year": 1977,
         "month": null,
         "day": null,
@@ -749,7 +749,7 @@
     },
     {
         "id": 704,
-        "description": "",
+        "description": "\"Большой пруд\" в поселке Уваровский.",
         "year": 1977,
         "month": null,
         "day": null,
@@ -760,7 +760,7 @@
     },
     {
         "id": 708,
-        "description": "",
+        "description": "Тамбовская \"Швейцария\". Река Ворона едва вошла в берега после разлива.",
         "year": 1977,
         "month": 5,
         "day": null,
@@ -771,7 +771,7 @@
     },
     {
         "id": 709,
-        "description": "",
+        "description": "Тамбовская \"Швейцария\". Река Ворона едва вошла в берега после разлива.",
         "year": 1977,
         "month": 5,
         "day": null,
@@ -782,7 +782,7 @@
     },
     {
         "id": 713,
-        "description": "",
+        "description": "Тамбовская \"Швейцария\". Река Ворона едва вошла в берега после разлива.",
         "year": 1977,
         "month": 5,
         "day": null,
@@ -793,7 +793,7 @@
     },
     {
         "id": 714,
-        "description": "",
+        "description": "Тамбовская \"Швейцария\". Река Ворона едва вошла в берега после разлива.",
         "year": 1977,
         "month": 5,
         "day": null,
@@ -804,7 +804,7 @@
     },
     {
         "id": 750,
-        "description": "",
+        "description": "Река Ворона. Сплав на байдарке.",
         "year": 1994,
         "month": null,
         "day": null,
@@ -815,7 +815,7 @@
     },
     {
         "id": 755,
-        "description": "",
+        "description": "Река Ворона. Сплав на байдарке.",
         "year": 1994,
         "month": null,
         "day": null,
@@ -826,7 +826,7 @@
     },
     {
         "id": 756,
-        "description": "",
+        "description": "Река Ворона. Сплав на байдарке.",
         "year": 1994,
         "month": null,
         "day": null,
@@ -837,7 +837,7 @@
     },
     {
         "id": 757,
-        "description": "",
+        "description": "Река Ворона. Сплав на байдарке.",
         "year": 1994,
         "month": null,
         "day": null,
@@ -848,7 +848,7 @@
     },
     {
         "id": 760,
-        "description": "",
+        "description": "Река Ворона. Погрузка байдарки у села Криволучье после сплава",
         "year": 1994,
         "month": null,
         "day": null,
@@ -859,7 +859,7 @@
     },
     {
         "id": 787,
-        "description": "",
+        "description": "Поселок Уваровский.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -870,7 +870,7 @@
     },
     {
         "id": 793,
-        "description": "",
+        "description": "\"Маленький\" пруд в поселке Уваровский.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -881,7 +881,7 @@
     },
     {
         "id": 794,
-        "description": "",
+        "description": "Поселок Уваравский. У колхозного сада.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -892,7 +892,7 @@
     },
     {
         "id": 797,
-        "description": "",
+        "description": "Поселок Уваровский.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -903,7 +903,7 @@
     },
     {
         "id": 931,
-        "description": "",
+        "description": "Инжавино. В школьном саду.",
         "year": 1974,
         "month": null,
         "day": null,
@@ -914,7 +914,7 @@
     },
     {
         "id": 943,
-        "description": "",
+        "description": "\"Запорожец\" в селе Кулевча.",
         "year": 1974,
         "month": null,
         "day": null,
@@ -925,7 +925,7 @@
     },
     {
         "id": 944,
-        "description": "",
+        "description": "Село Кулевча. Лошадь, запряжённая в сани.",
         "year": 1974,
         "month": null,
         "day": null,
@@ -936,7 +936,7 @@
     },
     {
         "id": 945,
-        "description": "",
+        "description": "Поселок Уваровский.",
         "year": 1974,
         "month": null,
         "day": null,
@@ -947,7 +947,7 @@
     },
     {
         "id": 950,
-        "description": "",
+        "description": "Плотина \"Большого\" пруда в поселке Уваровском.",
         "year": 1974,
         "month": null,
         "day": null,
@@ -958,7 +958,7 @@
     },
     {
         "id": 951,
-        "description": "",
+        "description": "Плотина \"Большого\" пруда в поселке Уваровском.",
         "year": 1974,
         "month": null,
         "day": null,
@@ -969,7 +969,7 @@
     },
     {
         "id": 952,
-        "description": "",
+        "description": "Поселок Уваровский.",
         "year": 1974,
         "month": null,
         "day": null,
@@ -980,7 +980,7 @@
     },
     {
         "id": 1105,
-        "description": "",
+        "description": "Река Ворона.",
         "year": 1979,
         "month": null,
         "day": null,
@@ -991,7 +991,7 @@
     },
     {
         "id": 1181,
-        "description": "",
+        "description": "Дети у \"Большого\" пруда в поселке Уваровский.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1002,7 +1002,7 @@
     },
     {
         "id": 1182,
-        "description": "",
+        "description": "На плотине \"Большого\" пруда в поселке Уваровский.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1013,7 +1013,7 @@
     },
     {
         "id": 1315,
-        "description": "",
+        "description": "Река Ворона, пляж \"Рижское взморье\".",
         "year": 1983,
         "month": null,
         "day": null,
@@ -1024,7 +1024,7 @@
     },
     {
         "id": 1483,
-        "description": "",
+        "description": "Река Ворона у поселка Коммуна.",
         "year": 1984,
         "month": 8,
         "day": null,
@@ -1035,7 +1035,7 @@
     },
     {
         "id": 1644,
-        "description": "",
+        "description": "Поселок Уваровский.",
         "year": 1982,
         "month": null,
         "day": null,
@@ -1046,7 +1046,7 @@
     },
     {
         "id": 1681,
-        "description": "",
+        "description": "Терновская гора. Слалом.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1057,7 +1057,7 @@
     },
     {
         "id": 1684,
-        "description": "",
+        "description": "Терновская гора. Спуск на санках.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1068,7 +1068,7 @@
     },
     {
         "id": 1685,
-        "description": "",
+        "description": "Терновская гора.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1079,7 +1079,7 @@
     },
     {
         "id": 1687,
-        "description": "",
+        "description": "Терновская гора.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1090,7 +1090,7 @@
     },
     {
         "id": 1688,
-        "description": "",
+        "description": "Терновская гора.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1101,7 +1101,7 @@
     },
     {
         "id": 1690,
-        "description": "",
+        "description": "Терновская гора.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1112,7 +1112,7 @@
     },
     {
         "id": 1691,
-        "description": "",
+        "description": "Терновская гора. Прыжок с трамплина.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1123,7 +1123,7 @@
     },
     {
         "id": 1696,
-        "description": "",
+        "description": "Терновская гора.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1134,7 +1134,7 @@
     },
     {
         "id": 1702,
-        "description": "",
+        "description": "Инжавино. Котельная маслосырзавода.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1145,7 +1145,7 @@
     },
     {
         "id": 1703,
-        "description": "",
+        "description": "Инжавино. Опушка леса у маслосырзавода.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1156,7 +1156,7 @@
     },
     {
         "id": 1704,
-        "description": "",
+        "description": "Инжавино. Высоковольтная линия.",
         "year": 1975,
         "month": null,
         "day": null,
@@ -1167,9 +1167,9 @@
     },
     {
         "id": 1705,
-        "description": "",
+        "description": "Река Ворона у поселка Коммуна.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.26765,
         "lon": 42.47994,
@@ -1178,7 +1178,7 @@
     },
     {
         "id": 1706,
-        "description": "",
+        "description": "Река Ворона у поселка Коммуна.",
         "year": 1986,
         "month": null,
         "day": null,
@@ -1189,9 +1189,9 @@
     },
     {
         "id": 1707,
-        "description": "",
+        "description": "Река Ворона у поселка Коммуна.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.26766,
         "lon": 42.47984,
@@ -1200,9 +1200,9 @@
     },
     {
         "id": 1708,
-        "description": "",
+        "description": "Река Ворона у поселка Коммуна.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.26765,
         "lon": 42.47987,
@@ -1211,9 +1211,9 @@
     },
     {
         "id": 1719,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на Углянку.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.3201,
         "lon": 42.50705,
@@ -1222,9 +1222,9 @@
     },
     {
         "id": 1720,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.32013,
         "lon": 42.50694,
@@ -1233,9 +1233,9 @@
     },
     {
         "id": 1721,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.32015,
         "lon": 42.50705,
@@ -1244,9 +1244,9 @@
     },
     {
         "id": 1722,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на улицу Ленинскую.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.32017,
         "lon": 42.507,
@@ -1255,9 +1255,9 @@
     },
     {
         "id": 1723,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на завод растительных масел.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.32014,
         "lon": 42.507,
@@ -1266,9 +1266,9 @@
     },
     {
         "id": 1724,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на Углянку.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.32011,
         "lon": 42.50707,
@@ -1277,9 +1277,9 @@
     },
     {
         "id": 1725,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.32017,
         "lon": 42.50698,
@@ -1288,9 +1288,9 @@
     },
     {
         "id": 1726,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на хлебозавод.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.32013,
         "lon": 42.50707,
@@ -1299,9 +1299,9 @@
     },
     {
         "id": 1727,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на улицу Ленинскую.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.32022,
         "lon": 42.507,
@@ -1310,9 +1310,9 @@
     },
     {
         "id": 1728,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на завод растительных масел.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.32018,
         "lon": 42.50698,
@@ -1321,9 +1321,9 @@
     },
     {
         "id": 1729,
-        "description": "",
+        "description": "Село Караул. Церковь именья Чичериных.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.23589,
         "lon": 42.36251,
@@ -1332,9 +1332,9 @@
     },
     {
         "id": 1732,
-        "description": "",
+        "description": "Река Ворона у села Нащекино.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.23437,
         "lon": 42.37225,
@@ -1343,9 +1343,9 @@
     },
     {
         "id": 1733,
-        "description": "",
+        "description": "Река Ворона. Мост у села Нащекино.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.23424,
         "lon": 42.37244,
@@ -1354,9 +1354,9 @@
     },
     {
         "id": 1734,
-        "description": "",
+        "description": "Река Ворона. Мост у села Нащекино.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.23446,
         "lon": 42.37242,
@@ -1365,9 +1365,9 @@
     },
     {
         "id": 1735,
-        "description": "",
+        "description": "Река Ворона. Мост у села Нащекино.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.23454,
         "lon": 42.37201,
@@ -1376,9 +1376,9 @@
     },
     {
         "id": 1736,
-        "description": "",
+        "description": "Река Ворона. Мост у села Нащекино.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.23462,
         "lon": 42.37238,
@@ -1387,9 +1387,9 @@
     },
     {
         "id": 1737,
-        "description": "",
+        "description": "Река Ворона. Мост у села Нащекино.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.23476,
         "lon": 42.37251,
@@ -1398,9 +1398,9 @@
     },
     {
         "id": 1738,
-        "description": "",
+        "description": "Река Ворона. Мост у села Нащекино.",
         "year": 1986,
-        "month": null,
+        "month": 6,
         "day": null,
         "lat": 52.23469,
         "lon": 42.37253,
@@ -1409,7 +1409,7 @@
     },
     {
         "id": 1739,
-        "description": "",
+        "description": "Река Ворона у села Нащекино.",
         "year": 1986,
         "month": null,
         "day": null,
@@ -1420,7 +1420,7 @@
     },
     {
         "id": 1743,
-        "description": "",
+        "description": "Инжавино. Улица Бербешкина 21.",
         "year": 1978,
         "month": null,
         "day": null,
@@ -1431,7 +1431,7 @@
     },
     {
         "id": 1748,
-        "description": "",
+        "description": "Село Марьевка. У колхозной фермы.",
         "year": 1978,
         "month": null,
         "day": null,
@@ -1442,7 +1442,7 @@
     },
     {
         "id": 1757,
-        "description": "",
+        "description": "Инжавино. Лыжня у дороги на Красивку.",
         "year": 1978,
         "month": null,
         "day": null,
@@ -1453,7 +1453,7 @@
     },
     {
         "id": 1770,
-        "description": "",
+        "description": "В сосновом лесу у санатория \"Инжавинский\".",
         "year": 1978,
         "month": null,
         "day": null,
@@ -1464,7 +1464,7 @@
     },
     {
         "id": 1858,
-        "description": "",
+        "description": "Инжавино. Улица Брбешкина.",
         "year": 1984,
         "month": 8,
         "day": null,
@@ -1475,7 +1475,7 @@
     },
     {
         "id": 1868,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на Углянку.",
         "year": 1984,
         "month": 8,
         "day": null,
@@ -1486,7 +1486,7 @@
     },
     {
         "id": 1869,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы.",
         "year": 1984,
         "month": 8,
         "day": null,
@@ -1497,7 +1497,7 @@
     },
     {
         "id": 1870,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы.",
         "year": 1984,
         "month": 8,
         "day": null,
@@ -1508,7 +1508,7 @@
     },
     {
         "id": 1871,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы.",
         "year": 1984,
         "month": 8,
         "day": null,
@@ -1519,7 +1519,7 @@
     },
     {
         "id": 1872,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы.",
         "year": 1984,
         "month": 8,
         "day": null,
@@ -1530,7 +1530,7 @@
     },
     {
         "id": 1873,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на пойму реки Ржавка.",
         "year": 1984,
         "month": 8,
         "day": null,
@@ -1541,7 +1541,7 @@
     },
     {
         "id": 1894,
-        "description": "",
+        "description": "Река Ворона, пляж \"Рижское взморье\".",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1552,7 +1552,7 @@
     },
     {
         "id": 1898,
-        "description": "",
+        "description": "Река Ворона.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1563,7 +1563,7 @@
     },
     {
         "id": 1899,
-        "description": "",
+        "description": "Река Ворона.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1574,7 +1574,7 @@
     },
     {
         "id": 1901,
-        "description": "",
+        "description": "Река Ворона.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1585,7 +1585,7 @@
     },
     {
         "id": 1905,
-        "description": "",
+        "description": "Пойма реки Ворона.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1596,7 +1596,7 @@
     },
     {
         "id": 1906,
-        "description": "",
+        "description": "Инжавино. Лысая гора.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1607,7 +1607,7 @@
     },
     {
         "id": 1907,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1618,7 +1618,7 @@
     },
     {
         "id": 1908,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на пойму реки Вороны.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1629,7 +1629,7 @@
     },
     {
         "id": 1909,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на Углянку.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1640,7 +1640,7 @@
     },
     {
         "id": 1910,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1651,7 +1651,7 @@
     },
     {
         "id": 1911,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на хлебозавод.",
         "year": 1983,
         "month": 7,
         "day": null,
@@ -1662,7 +1662,7 @@
     },
     {
         "id": 1912,
-        "description": "",
+        "description": "Инжавино. Вид с Лысой горы на улицу Ленинскую и завод растительных масел.",
         "year": 1983,
         "month": 7,
         "day": null,
