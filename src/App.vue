@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>🗺️ Окрестности Инжавино 70-е, 80-е, 90-е</h1>
+    <h2>🗺️ Окрестности Инжавино 70-е, 80-е, 90-е</h2>
     <div class="gallery-container">
       <div class="gallery-list">
         <PhotoGallery 
@@ -14,8 +14,8 @@
         <div class="info-panel" v-if="selectedPhoto">
           <h3>{{ selectedPhoto.description }}</h3>
           <p>📅 {{ formatFullDate(selectedPhoto) }}</p>
-          <p>📍 Координаты: {{ selectedPhoto.lat.toFixed(5) }}, {{ selectedPhoto.lon.toFixed(5) }}</p>
-          <p>🧭 Направление: {{ selectedPhoto.direct?.toFixed(1) }}°</p>
+          <!-- <p>📍 Координаты: {{ selectedPhoto.lat.toFixed(5) }}, {{ selectedPhoto.lon.toFixed(5) }}</p> -->
+          <!-- <p>🧭 Направление: {{ selectedPhoto.direct?.toFixed(1) }}°</p> -->
         </div>
         <div class="info-panel" v-else>
           <p>👈 Выберите фотографию, чтобы увидеть место съёмки на карте</p>

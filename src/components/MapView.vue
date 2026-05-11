@@ -141,5 +141,12 @@ watch(
   width: 100%;
   height: 400px;
   background-color: #e9f0f5;
+  touch-action: pan-x pan-y; /* улучшает скролл на тач-устройствах */
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .map-container {
+    height: 240px;
+  }
 }
 </style>
