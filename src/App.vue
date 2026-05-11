@@ -74,7 +74,7 @@ function openLightbox(photo) {
   console.log('openLightbox called', photo)
   lightboxImageUrl.value = `./images/${photo.image}`
   lightboxAlt.value = photo.description
-  lightboxCaption.value = `${photo.description}. ${formatFullDate(photo)}`
+  lightboxCaption.value = `${photo.description} ${formatFullDate(photo)}`
   lightboxVisible.value = true
   console.log('lightboxVisible:', lightboxVisible.value)
 }
