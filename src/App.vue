@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h2>🗺️ Окрестности Инжавино 70-е, 80-е, 90-е</h2>
+    <h2>🗺️ Окрестности Инжавино 70-е &mdash; 00-е</h2>
     <div class="gallery-container">
       <div class="gallery-list">
         <PhotoGallery 
@@ -16,6 +16,9 @@
           <p>📅 {{ formatFullDate(selectedPhoto) }}</p>
           <!-- <p>📍 Координаты: {{ selectedPhoto.lat.toFixed(5) }}, {{ selectedPhoto.lon.toFixed(5) }}</p> -->
           <!-- <p>🧭 Направление: {{ selectedPhoto.direct?.toFixed(1) }}°</p> -->
+          <p><span style="color: red; font-size: 1.5em;">&#9679;</span> - место съемки; 
+            <span style="color: #2980b9; letter-spacing: 2px; font-weight: bold; font-size: 1.5em;">-----</span> - направление съемки.
+          </p>
         </div>
         <div class="info-panel" v-else>
           <p>👈 Выберите фотографию, чтобы увидеть место съёмки на карте</p>
@@ -25,7 +28,7 @@
           :lon="selectedPhoto?.lon" 
           :direct="selectedPhoto?.direct"
         />
-        <p>Для просмотра фото кликните на выделенной миниатюре</p>
+        <!-- <p>Для просмотра фото кликните на выделенной миниатюре</p> -->
       </div>
     </div>
     <!-- Лайтбокс -->
@@ -58,7 +61,8 @@ const lightboxCaption = ref('')
 onMounted(async () => {
   try {
     const response = await fetch('./gallery.json')
-    const data = await response.json()
+    let data = await response.json()
+    data = sortPhotos(data) // Сортируем
     photos.value = data
     if (data.length) selectedPhoto.value = data[0]
   } catch (err) {
@@ -88,5 +92,20 @@ function formatFullDate(photo) {
   if (photo.month && photo.day) date += `, ${photo.month} месяц, ${photo.day}`
   else if (photo.month) date += `, ${monthStr(photo.month)} месяц`
   return date
+}
+
+function sortPhotos(photos) {
+  return [...photos].sort((a, b) => {
+    // Сравнение year (null -> Infinity, чтобы уходил в конец)
+    if (a.year != b.year) return (a.year || Infinity) - (b.year || Infinity)
+    // Сравнение month (null -> Infinity, чтобы уходил в конец)
+    const monthA = a.month ?? Infinity
+    const monthB = b.month ?? Infinity
+    if (monthA !== monthB) return monthA - monthB
+    // Сравнение day
+    const dayA = a.day ?? Infinity
+    const dayB = b.day ?? Infinity
+    return dayA - dayB
+  })
 }
 </script>
