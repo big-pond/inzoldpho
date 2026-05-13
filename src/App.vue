@@ -89,7 +89,7 @@ function closeLightbox() {
 
 function formatFullDate(photo) {
   let date = `${photo.year} год`
-  if (photo.month && photo.day) date += `, ${photo.month} месяц, ${photo.day}`
+  if (photo.month && photo.day) date += `, ${monthStr(photo.month)} месяц, ${photo.day} число`
   else if (photo.month) date += `, ${monthStr(photo.month)} месяц`
   return date
 }
