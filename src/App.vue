@@ -183,33 +183,49 @@ h2 {
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-  .gallery-container {
-    flex-direction: column;
-  }
-  
-  .gallery-list, .map-area {
-    width: 100%;
-    min-height: 300px;
-}
   
   .app {
     padding: 12px;
-    height: auto; /* На мобильных устройствах лучше auto */
-    min-height: 100vh; /* Минимум вся высота */
-    overflow: auto; /* На мобильных разрешаем скролл */
+    height: 100vh; /* Возвращаем жесткую высоту во весь экран */
+    /* Поддержка современных мобильных браузеров, где 100vh включает динамические панели */
+    height: 100dvh; 
+    overflow: hidden; /* Запрещаем общий скролл страницы */
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .gallery-container {
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+    min-height: 0; /* Важно, чтобы контейнер мог сжиматься */
 }
   
-  h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
+  .gallery-list {
+    flex: 1;       /* Займет ровно половину оставшегося места */
+    width: 100%;
+    min-height: 0; /* УБРАНО min-height: 300px, разрешаем сжатие */
   }
-  
+
+  .map-area {
+    flex: 1.2;     /* Займет чуть больше половины (под карту) */
+    width: 100%;
+    min-height: 0; /* УБРАНО min-height: 300px, разрешаем сжатие */
+    gap: 8px;
+  }
+
+  .info-panel {
+    padding: 8px 12px;
+  } 
+   
   .info-panel h3 {
-    font-size: 16px;
+    font-size: 14px;
   }
   
   .info-panel p {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 

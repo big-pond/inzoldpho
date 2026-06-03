@@ -206,15 +206,27 @@ function formatDate(photo) {
 
   .photo-grid {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 12px;
+    gap: 10px;
+    flex: 1;
+    min-height: 0; 
+    overflow-y: auto; /* Внутренний скролл только для списка фото */
 }
   
+  .photo-card {
+    border-radius: 8px;
+    min-height: 110px; /* Уменьшаем минимальную высоту для экранов смартфонов */
+  }
+
+  .photo-info {
+    padding: 6px;
+  }
+
   .photo-info .desc {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
   
   .photo-info .year {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 }
 </style>
