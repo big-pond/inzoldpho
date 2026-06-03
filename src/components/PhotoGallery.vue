@@ -203,26 +203,27 @@ function formatDate(photo) {
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-
+  
   .photo-grid {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 8px;
     flex: 1;
     min-height: 0; 
-    overflow-y: auto; /* Внутренний скролл только для списка фото */
+    padding-right: 4px;
 }
   
   .photo-card {
-    border-radius: 8px;
-    min-height: 110px; /* Уменьшаем минимальную высоту для экранов смартфонов */
+    border-radius: 6px;
+    min-height: 95px; /* Уменьшаем минимальную высоту для экранов смартфонов */
   }
 
   .photo-info {
-    padding: 6px;
+    padding: 5px;
   }
 
   .photo-info .desc {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+    margin-bottom: 2px;
   }
   
   .photo-info .year {

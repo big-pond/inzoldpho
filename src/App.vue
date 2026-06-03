@@ -219,7 +219,7 @@ h2 {
   .info-panel {
     padding: 8px 12px;
   } 
-   
+
   .info-panel h3 {
     font-size: 14px;
   }
@@ -230,28 +230,65 @@ h2 {
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-  .gallery-container {
-    flex-direction: row;
-  }
-  
-  .gallery-list {
-    min-width: 240px;
-  }
-  
-  .map-area {
-    min-width: 280px;
-  }
-  
+
   .app {
-    padding: 16px;
+    padding: 8px 12px;
     height: 100vh;
+    height: 100dvh; /* Гарантирует точный размер на iOS/Android */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 8px; /* Сильно уменьшаем заголовок, чтобы сэкономить высоту */
+    text-align: left;   /* Смещаем влево, чтобы смотрелось компактнее */
+  }
+
+
+  .gallery-container {
+    flex-direction: row; /* Галерея слева, карта справа */
+    gap: 12px;
+    flex: 1;
+    min-height: 0;
     overflow: hidden;
   }
   
-  h2 {
-    font-size: 22px;
-    margin-bottom: 24px;
+  .gallery-list {
+    flex: 1;
+    min-width: 220px; /* Слегка сужаем галерею, давая простор карте */
+    max-width: 320px; 
+    min-height: 0;
   }
+  
+  .map-area {
+    flex: 1.5; /* Отдаем карте приоритет по ширине */
+    min-width: 280px;
+    min-height: 0;
+    gap: 8px;
+  }
+  
+  .info-panel {
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+  
+  .info-panel h3 {
+    font-size: 13px;
+    margin-bottom: 2px;
+    /* Если название длинное, в ландшафте лучше спрятать хвост в одну строку */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .info-panel p {
+    margin: 2px 0;
+    font-size: 11px;
+  }
+  
 }
 
 </style>
