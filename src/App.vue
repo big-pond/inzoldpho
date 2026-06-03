@@ -28,7 +28,6 @@
           :lon="selectedPhoto?.lon" 
           :direct="selectedPhoto?.direct"
         />
-        <!-- <p>Для просмотра фото кликните на выделенной миниатюре</p> -->
       </div>
     </div>
     <!-- Лайтбокс -->
@@ -109,3 +108,134 @@ function sortPhotos(photos) {
   })
 }
 </script>
+
+<style scoped>
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh; /* Вся высота окна браузера */
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow: hidden; /* Запрещаем скролл на уровне .app */
+}
+
+h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  flex-shrink: 0; /* Заголовок не сжимается */
+}
+
+.gallery-container {
+  display: flex;
+  gap: 24px;
+  flex: 1; /* Растягивается на оставшееся пространство */
+  min-height: 0; /* Ключевое свойство - разрешает сжатие */
+  overflow: hidden; /* Запрещаем переполнение */
+}
+
+.gallery-list {
+  flex: 1;
+  min-width: 280px;
+  min-height: 0; /* Важно для внутренней прокрутки */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-area {
+  flex: 1.2;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0; /* Важно для правильной работы flexbox */
+  overflow: hidden; /* Запрещаем переполнение */
+}
+
+.info-panel {
+  background: white;
+  padding: 12px 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-size: 14px;
+  flex-shrink: 0; /* Панель информации не сжимается */
+}
+
+.info-panel h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.info-panel p {
+  margin: 4px 0;
+  color: #555;
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .gallery-container {
+    flex-direction: column;
+  }
+  
+  .gallery-list, .map-area {
+    width: 100%;
+    min-height: 300px;
+}
+  
+  .app {
+    padding: 12px;
+    height: auto; /* На мобильных устройствах лучше auto */
+    min-height: 100vh; /* Минимум вся высота */
+    overflow: auto; /* На мобильных разрешаем скролл */
+}
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .info-panel h3 {
+    font-size: 16px;
+  }
+  
+  .info-panel p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .gallery-container {
+    flex-direction: row;
+  }
+  
+  .gallery-list {
+    min-width: 240px;
+  }
+  
+  .map-area {
+    min-width: 280px;
+  }
+  
+  .app {
+    padding: 16px;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+}
+
+</style>

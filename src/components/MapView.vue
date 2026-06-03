@@ -134,19 +134,65 @@ watch(
   },
   { immediate: true }  // Чтобы отработало сразу после монтирования
 )
+
+// Добавляем watch для обновления карты при изменении размера контейнера
+import { onUnmounted } from 'vue'
+let resizeObserver = null
+
+onMounted(() => {
+  // ... существующий код ...
+  
+  // Наблюдаем за изменением размера контейнера
+  if (mapContainer.value) {
+    resizeObserver = new ResizeObserver(() => {
+      if (map) {
+        setTimeout(() => map.updateSize(), 100)
+      }
+    })
+    resizeObserver.observe(mapContainer.value)
+  }
+})
+
+onUnmounted(() => {
+  if (resizeObserver) {
+    resizeObserver.disconnect()
+  }
+  if (map) {
+    map.setTarget(null)
+    map = null
+  }
+})
 </script>
 
 <style scoped>
 .map-container {
   width: 100%;
-  height: 400px;
+  /* Изменено: теперь занимает всю доступную высоту flex-контейнера */
+  flex: 1;
   background-color: #e9f0f5;
   touch-action: pan-x pan-y; /* улучшает скролл на тач-устройствах */
+  min-height: 0;
+}
+
+/* Для очень маленьких экранов */
+@media (min-width: 480px) {
+  .map-container {
+    min-height: 200px; 
+  }
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
   .map-container {
-    height: 240px;
+    flex: 1;
+    min-height: 250px; /* Минимальная высота на мобильных */
   }
 }
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .map-container {
+    flex: 1;
+    min-height: 200px;
+  }
+}
+
 </style>
