@@ -194,6 +194,7 @@ h2 {
 
   h2 {
     font-size: 18px;
+    margin-top: 4px;
     margin-bottom: 12px;
   }
   .gallery-container {
@@ -242,6 +243,7 @@ h2 {
 
   h2 {
     font-size: 16px;
+    margin-top: 0px;
     margin-bottom: 8px; /* Сильно уменьшаем заголовок, чтобы сэкономить высоту */
     text-align: left;   /* Смещаем влево, чтобы смотрелось компактнее */
   }
@@ -268,7 +270,7 @@ h2 {
     min-height: 0;
     gap: 8px;
   }
-  
+
   .info-panel {
     padding: 6px 10px;
     font-size: 12px;
