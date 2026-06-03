@@ -129,7 +129,7 @@ function handleSwipe() {
 <style scoped>
 
 .lightbox {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -217,34 +217,37 @@ function handleSwipe() {
 /* Подпись под фото */
 .lightbox-caption {
   position: absolute;
-  bottom: -45px;
+  bottom: -20px;
+  transform: translateY(100%) translateX(-50%); /* Корректный сдвиг вниз */
   left: 50%;
-  transform: translateX(-50%);
   color: white;
   background: rgba(0,0,0,0.75);
-  padding: 6px 16px;
-  border-radius: 20px;
+  padding: 8px 16px;
+  border-radius: 12px;
   font-size: 14px;
   text-align: center;
-  white-space: nowrap;
-  max-width: 95%;
+  white-space: normal;   /* Разрешаем тексту переноситься */
+  width: 90vw;           /* Ограничиваем ширину подписи шириной экрана */
+  max-width: 600px;      /* Чтобы на десктопах не растягивалось слишком сильно */
+  box-sizing: border-box;
 }
 
 .counter {
   margin-left: 8px;
   opacity: 0.7;
   font-size: 12px;
+  display: inline-block; /* Удерживает счетчик рядом со словом */
 }
 
 /* --- АДАПТИВ ДЛЯ МОБИЛЬНЫХ (LANDSCAPE) --- */
 @media (max-width: 932px) and (orientation: landscape) {
   .lightbox-content {
     max-width: 85%;
-    max-height: 100%;
+    max-height: 85%;
   }
 
   .lightbox-image {
-    max-height: 82vh;
+    max-height: 75vh;
   }
 
   .lightbox-close {
@@ -256,10 +259,15 @@ function handleSwipe() {
   }
 
   .lightbox-caption {
-    bottom: 8px; 
+    position: absolute;
+    bottom: 8px;        /* В ландшафте накладываем ПОВЕРХ фото внизу */
+    transform: translateX(-50%);
+    left: 50%;
+    width: 80%;         /* Сужаем, чтобы не упереться в кнопку закрытия */
     font-size: 12px;
-    padding: 4px 12px;
-    background: rgba(0, 0, 0, 0.8);
+    padding: 6px 12px;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 8px;
   }
 
   /* На смартфонах в ландшафте скрываем стрелки, так как есть свайпы, 
@@ -271,11 +279,20 @@ function handleSwipe() {
 
 /* --- АДАПТИВ ДЛЯ МОБИЛЬНЫХ (PORTRAIT) --- */
 @media (max-width: 768px) and (orientation: portrait) {
-  .lightbox-caption {
-    font-size: 13px;
-    bottom: -50px;
+  .lightbox-content {
+    max-height: 75%;    /* Выделяем больше пространства под картинкой */
   }
 
+  .lightbox-image {
+    max-height: 70vh;   /* Удерживаем картинку, давая место тексту снизу */
+  }
+
+  .lightbox-caption {
+    font-size: 13px;
+    width: 85vw;        /* Подпись займет максимум 85% ширины экрана смартфона */
+    bottom: -12px;      /* Аккуратный отступ под изображением */
+    border-radius: 10px;
+  }
   /* В портрете стрелки тоже скрываем в пользу удобных свайпов */
   .nav-btn {
     display: none;
