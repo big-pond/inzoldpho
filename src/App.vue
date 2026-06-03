@@ -33,10 +33,10 @@
     <!-- Лайтбокс -->
     <Lightbox 
       :visible="lightboxVisible"
-      :imageUrl="lightboxImageUrl"
-      :alt="lightboxAlt"
-      :caption="lightboxCaption"
+      :photos="photos"
+      :currentIndex="currentPhotoIndex"
       @close="closeLightbox"
+      @update:currentIndex="currentPhotoIndex = $event"
     />
   </div>
 </template>
@@ -53,9 +53,10 @@ const selectedPhoto = ref(null)
 
 // Лайтбокс
 const lightboxVisible = ref(false)
-const lightboxImageUrl = ref('')
-const lightboxAlt = ref('')
-const lightboxCaption = ref('')
+const currentPhotoIndex = ref(0) // ИНДЕКС: Отслеживает текущую фотографию
+// const lightboxImageUrl = ref('')
+// const lightboxAlt = ref('')
+// const lightboxCaption = ref('')
 
 onMounted(async () => {
   try {
@@ -75,11 +76,20 @@ function onSelectPhoto(photo) {
 
 function openLightbox(photo) {
   console.log('openLightbox called', photo)
-  lightboxImageUrl.value = `./images/${photo.image}`
-  lightboxAlt.value = photo.description
-  lightboxCaption.value = `${photo.description} ${formatFullDate(photo)}`
+  // Находим порядковый номер фотографии в отсортированном массиве
+  const index = photos.value.findIndex(p => p.id === photo.id)
+  // Если нашли, сохраняем индекс, иначе ставим 0
+  currentPhotoIndex.value = index !== -1 ? index : 0
+  
   lightboxVisible.value = true
-  console.log('lightboxVisible:', lightboxVisible.value)
+  console.log('lightboxVisible:', lightboxVisible.value)  
+
+  // console.log('openLightbox called', photo)
+  // lightboxImageUrl.value = `./images/${photo.image}`
+  // lightboxAlt.value = photo.description
+  // lightboxCaption.value = `${photo.description} ${formatFullDate(photo)}`
+  // lightboxVisible.value = true
+  // console.log('lightboxVisible:', lightboxVisible.value)
 }
 
 function closeLightbox() {
@@ -95,18 +105,26 @@ function formatFullDate(photo) {
 
 function sortPhotos(photos) {
   return [...photos].sort((a, b) => {
-    // Сравнение year (null -> Infinity, чтобы уходил в конец)
     if (a.year != b.year) return (a.year || Infinity) - (b.year || Infinity)
-    // Сравнение month (null -> Infinity, чтобы уходил в конец)
     const monthA = a.month ?? Infinity
     const monthB = b.month ?? Infinity
     if (monthA !== monthB) return monthA - monthB
-    // Сравнение day
     const dayA = a.day ?? Infinity
     const dayB = b.day ?? Infinity
     return dayA - dayB
   })
 }
+
+import { watch } from 'vue'
+
+// Следим за изменением индекса в лайтбоксе. 
+// Когда пользователь листает фото, обновляем активную фотографию для карты
+watch(currentPhotoIndex, (newIndex) => {
+  if (photos.value[newIndex]) {
+    selectedPhoto.value = photos.value[newIndex]
+  }
+})
+
 </script>
 
 <style scoped>
